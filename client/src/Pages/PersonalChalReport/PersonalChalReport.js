@@ -109,7 +109,7 @@ export default class PersonalChalReport extends Component {
           <h3 className="challenge-info__title">Ab Challenge</h3>
         </div>
         <div className="challenge-ring-container">
-          <ChallengeRing />
+          <ChallengeRing raius={60} stroke={4} />
         </div>
         <div className="challenge-info">
           <h3 className="challenge-info__congrats">Congratulations</h3>

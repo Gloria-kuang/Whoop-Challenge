@@ -2,35 +2,45 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
-.challenge-ring {
-  &__outer {
-    background-color: $secondary-cta-color;
-    width: 327px;
-    height: 327px;
-    border-radius: 50%;
-    position: relative;
-    margin: 0;
-  }
+// .challenge-ring {
+//   &__outer {
+//     background-color: $secondary-cta-color;
+//     width: 327px;
+//     height: 327px;
+//     border-radius: 50%;
+//     position: relative;
+//     margin: 0;
+//   }
 
-  &__inner {
-    background-color: $primary-background-color;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+//   &__inner {
+//     background-color: $primary-background-color;
+//     width: 300px;
+//     height: 300px;
+//     border-radius: 50%;
+//     position: absolute;
+//     top: 4%;
+//     left: 4%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
 
-  &__text {
-    width: 50%;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: $primary-font-color;
-    text-align: center;
-    margin: 0;
+//   &__text {
+//     width: 50%;
+//     font-size: 2rem;
+//     line-height: 2.5rem;
+//     color: $primary-font-color;
+//     text-align: center;
+//     margin: 0;
+//   }
+// }
+
+.progress-ring {
+  &__circle {
+    stroke: $secondary-cta-color;
+    fill: transparent;
+    // transition: stroke-dashoffset 0.35s;
+    // transform: rotate(-90deg);
+    // transform-origin: 50% 50%;
   }
 }
